@@ -14,6 +14,9 @@ h2 {
 h3 {
   color: rgb(49, 171, 232);
 }
+h5 {
+  text-align: left;
+}
 p {
   text-align: justify;
 }

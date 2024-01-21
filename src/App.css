@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.s-alert-box {
+  min-width: 250px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.s-alert-close::before, .s-alert-close::after {
+  width: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+/* alert style */
+/* Success Alert Style */
+.s-alert.success {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: 1px solid #45a049; /* Darker green border */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Error Alert Style */
+.s-alert.error {
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  border: 1px solid #d32f2f; /* Darker red border */
 }
 
-.App-link {
-  color: #61dafb;
+/* Container for Alert Messages */
+.s-alert-box {
+  width: 300px; /* Adjust the width to your preference */
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999; /* Ensure alerts appear on top of other content */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

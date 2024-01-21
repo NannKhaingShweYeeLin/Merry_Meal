@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link} from "react-router-dom";
 import meal from "../images/meal.jpg";
 import meal1 from "../images/meal1.jpg";
 import meal2 from "../images/meal2.jpg";
@@ -12,19 +12,22 @@ export class GetMeal extends Component {
     return (
       <div class="get-meal-home">
         {/* Cover section  start */}
-        <div class="card text-bg-dark">
-          <img src={meal} class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <div class="card-body mt-5">
-              <h1 class="getmeal-text">
-                "Enjoy your Delicous Meal with a side of smiles"
+        
+
+        <section class="home" id=" home ">
+          <div class="container-cover ">
+            <img src={meal} class="img-fluid" alt=" " />
+            <div class="cover-text">
+              <span>hello</span>
+              <h1>
+                Welcome To
+                <br /> The Meal on wheels family
               </h1>
             </div>
           </div>
-        </div>
-
+        </section>
         {/* cover section end  */}
-        <div class="card mb-5 offer-section mt-4 get-involve">
+        <div class="card mb-5 offer-section mt-4 get-involve  border border-0">
           <div class="row g-0">
             <div class="col-md-5">
               <img src={meal1} class="img-fluid rounded-start" alt="..." />
@@ -32,11 +35,12 @@ export class GetMeal extends Component {
             <div class="col-md-7 ">
               <div class="card-body">
                 <p class="card-text">
-                MerryMeals offers a range of meal options tailored to meet 
-                the diverse needs of our clients. Whether you're an older adult 
-                seeking nutritious and delicious meals, a caregiver looking to provide 
-                the best for your loved one, or simply looking for a convenient way to 
-                enjoy freshly prepared dishes, we have you covered.
+                  MerryMeals offers a range of meal options tailored to meet the
+                  diverse needs of our clients. Whether you're an older adult
+                  seeking nutritious and delicious meals, a caregiver looking to
+                  provide the best for your loved one, or simply looking for a
+                  convenient way to enjoy freshly prepared dishes, we have you
+                  covered.
                 </p>
                 <div class="d-flex justify-content-center order-btn">
                   <Link to="/register" class="btn btn-info">
@@ -59,7 +63,7 @@ export class GetMeal extends Component {
                   <img src={meal2} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/ordermeal" class="check-meal">
                       Learn More
                     </Link>
                   </div>
@@ -75,7 +79,7 @@ export class GetMeal extends Component {
                   <img src={meal3} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/orderadult" class="check-meal">
                       Learn More
                     </Link>
                   </div>
@@ -91,7 +95,7 @@ export class GetMeal extends Component {
                   <img src={meal4} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/caregiver" class="check-meal">
                       Learn More
                     </Link>
                   </div>
@@ -107,7 +111,7 @@ export class GetMeal extends Component {
                   <img src={meal5} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/aboutmeal" class="check-meal">
                       Learn More
                     </Link>
                   </div>

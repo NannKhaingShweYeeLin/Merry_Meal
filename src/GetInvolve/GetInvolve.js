@@ -8,21 +8,22 @@ import "../GetInvolve/GetInvolve.css";
 export class GetInvolve extends Component {
   render() {
     return (
-      <div class="get-involve-home">
-        <div class="card mb-5 offer-section mt-4 get-involve">
+      <div class="get-involve-home ">
+        <div class="card mb-5 offer-section mt-4 get-involve border border-0">
           <div class="row g-0">
             <div class="col-md-5">
               <img src={getinvolve} class="img-fluid rounded-start" alt="..." />
             </div>
-            <div class="col-md-7 ">
+            <div class="col-md-7 bg-light">
               <div class="card-body">
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Porro et nulla corrupti nam quos molestiae aliquam delectus,
-                  non eveniet itaque, facere deleniti? Repellat officia
-                  consequuntur dolorum aperiam dolores, modi repudiandae! Lorem
-                  ipsum dolor sit amet consectetur, adipisicing elit. Porro et
-                  nulla corrupti nam quos molestiae aliquam delectus, non ev
+                  At MerryMeals, we believe that change happens when individuals
+                  come together and take action. There are several ways to get
+                  involved and make a difference in the lives of those we serve.
+                  Whether you're passionate about meal delivery, want to
+                  volunteer your time and skills, or seek unique ways to support
+                  our mission, there's a place for you in our vibrant community
+                  of compassion.
                 </p>
                 <div class="d-flex justify-content-center order-btn">
                   <Link to="/register" class="btn btn-info">
@@ -45,7 +46,7 @@ export class GetInvolve extends Component {
                   <img src={meal1} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/delivery" class="check-meal">
                       Learn More
                     </Link>
                   </div>
@@ -61,14 +62,13 @@ export class GetInvolve extends Component {
                   <img src={meal2} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/volunteer" class="check-meal">
                       Learn More
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
-
             <div class="col-4 w-16">
               <div class="card check-meal ">
                 <div class="card-body">
@@ -77,20 +77,12 @@ export class GetInvolve extends Component {
                   <img src={meal3} class="card-img-top" alt="..." />
                   {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                   <div class="d-flex justify-content-center order-btn">
-                    <Link to="/signup" class="check-meal">
+                    <Link to="/involveother" class="check-meal">
                       Learn More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+                    </Link></div> </div></div></div></div> </div>
         {/* Get involve card end  */}
       </div>
     );
   }
 }
-
 export default GetInvolve;

@@ -11,3 +11,9 @@
 .aboutmeal-title {
   text-align: center;
 }
+
+.Ameal{
+  
+ max-height:200px;overflow:auto;
+  
+}

@@ -25,3 +25,14 @@
 link {
   text-decoration: none;
 }
+p{
+
+white-space: normal;
+}
+
+.omeal{
+  max-height:200px;overflow:auto;
+
+} 
+
+

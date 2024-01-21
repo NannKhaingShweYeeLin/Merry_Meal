@@ -2,22 +2,11 @@
     text-align: center;
 }
 
-.register-form{
-    background: #eeb806;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
-     border-radius: 2px;
-     width: 300px;
-     display: inline-block;
-     vertical-align: middle; 
-     position: relative; 
-     padding: 35px; 
-     margin-top: 30px;
-}
 
 .signup-content {
-    background: #fff;
+    background: #f1bb3d;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
-    border-radius: 2px;
+    border-radius: 12px;
     width: 500px;
     display: inline-block;
     margin-top: 30px;
@@ -27,15 +16,16 @@
 }
 
 .social-btn {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .social-btn img {
-    height: 32px;
+    height: 40px;
     float: left;
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: -2px;
 }
 
 .social-btn.google {
@@ -47,10 +37,7 @@
     margin-left: 3px;
 }
 
-.social-btn.github img {
-    height: 24px;
-    margin-left: 3px;
-}
+
 
 .login-link {
     color: rgba(0, 0, 0, 0.65);
@@ -64,3 +51,33 @@
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.65);
 }
+
+
+/* alert style */
+/* Success Alert Style */
+.s-alert.success {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: 1px solid #45a049; /* Darker green border */
+  }
+  
+  /* Error Alert Style */
+  .s-alert.error {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    border: 1px solid #d32f2f; /* Darker red border */
+  }
+  
+  /* Container for Alert Messages */
+  .s-alert-box {
+    width: 300px; /* Adjust the width to your preference */
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensure alerts appear on top of other content */
+  }
+  
+

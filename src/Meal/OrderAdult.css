@@ -25,3 +25,11 @@
 link {
   text-decoration: none;
 }
+p{
+  text-align: justify;
+  }
+  .oA{
+    max-height:200px;overflow:auto;
+    
+  } 
+  

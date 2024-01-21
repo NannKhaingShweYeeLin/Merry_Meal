@@ -90,3 +90,7 @@
   filter: brightness(1.3);
 }
 /* cover end  */
+p {
+  text-align: justify;
+  line-height: 2;
+}

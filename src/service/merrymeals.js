@@ -31,7 +31,7 @@ export function getCurrentUser() {
     }
 
     return request({
-        url: API_BASE_URL + "/kyn/user/me",
+        url: API_BASE_URL + "/merrymeals/user/me",
         method: 'GET'
     });
     //return axios.get(API_BASE_URL + '/online/user/me');
@@ -40,7 +40,7 @@ export function getCurrentUser() {
 //Post Login User - Public Route
 export function login(loginRequest) {
     return request({
-        url: API_BASE_URL + "/kyn/login",
+        url: API_BASE_URL + "/merrymeals/login",
         method: 'POST',
         body: JSON.stringify(loginRequest)
     });
@@ -49,7 +49,7 @@ export function login(loginRequest) {
 //Post Register User - Public Route
 export function signup(signupRequest) {
     return request({
-        url: API_BASE_URL + "/kyn/register",
+        url: API_BASE_URL + "/merrymeals/register",
         method: 'POST',
         body: JSON.stringify(signupRequest)
     });

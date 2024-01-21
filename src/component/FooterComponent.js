@@ -1,6 +1,5 @@
 import "./FooterComponent.css";
 import React, { Component } from "react";
-
 export class FooterComponent extends Component {
   render() {
     return (
@@ -29,7 +28,6 @@ export class FooterComponent extends Component {
                 <i class="fa-brands fa-square-twitter fs-5 mr-3"></i>
               </a>
             </div>
-
             <div class="contact mt-3 mb-3">
               <a href="/about">About us|</a>
               <a href="contact">Contact Us|</a>
@@ -42,5 +40,4 @@ export class FooterComponent extends Component {
     );
   }
 }
-
 export default FooterComponent;
